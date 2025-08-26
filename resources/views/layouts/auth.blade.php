@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/login.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/fontawesome-free-6.6.0-web/css/all.min.css') }}">
 </head>
-x`
+
 <body>
     <div class="container-fluid bg-login">
         <div class="row align-items-center justify-content-center">

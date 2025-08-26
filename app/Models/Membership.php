@@ -14,6 +14,12 @@ class Membership extends Model
         'start_date',
         'end_date',
     ];
+
+    protected $casts = [
+        'active' => 'boolean',
+        'start_date' => 'datetime',
+        'end_date' => 'datetime',
+    ];
        public function plan()
     {
         return $this->belongsTo(Plan::class);
